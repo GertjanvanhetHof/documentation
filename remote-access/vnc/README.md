@@ -112,7 +112,7 @@ To run at boot:
      start)
       echo "Starting VNC Server"
       #Insert your favoured settings for a VNC session
-      su - $USER -c "/usr/bin/vncserver :1 -geometry 1280x800 -depth 16 -pixelformat rgb565"
+      su - $USER -c "/usr/bin/vncserver :1 -geometry 1920x1080 -depth 24 -dpi 96 -pixelformat rgb565"
       ;;
     
      stop)
